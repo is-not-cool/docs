@@ -40,15 +40,28 @@ All the filenames below meet all the criteria. The reason in parentheses is just
 `domains/docs.json`
 ```json
 {
-  "description": "Documentation for is-a-dev",
-  "repo": "https://github.com/is-a-dev/docs",
-  "owner": {
-    "username": "is-a-dev",
-    "email": "hello@maintainers.is-a.dev"
-  },
-  "record": {
-    "URL": "https://www.is-a.dev/docs"
-  }
+    "domain": "is-not.cool",
+    "subdomain": "example",
+
+    "owner": {
+        "username": "yourgithubusername",
+        "email": "hello@example.com",
+        "repo": "yourrepohere"
+    },
+
+    "records": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["example_verification=1234567890"],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ],
+    },
+
+    "proxied": false
 }
 ```
 
@@ -78,9 +91,10 @@ This section is where you specify the DNS records. The supported types are:
 - `CNAME`
 - `A`
 - `AAAA`
-- `URL`
 - `MX`
 - `TXT`
+- `NS`
+- `SRV`
 
 Below are some examples for the given record types:
 
