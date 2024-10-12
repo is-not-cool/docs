@@ -6,7 +6,7 @@ icon: /img/hand-waving.svg
 Here you will find Guides, our JSON file structure and more.
 
 ## How to Register
-You can read about the domains JSON file structure [here](domain-structure/index.md).
+You can read about the domains JSON file structure [here](useful/domain-structure.md).
 
 ## Guides
 - [Cloudflare Pages](guides/cloudflare-pages.md)
