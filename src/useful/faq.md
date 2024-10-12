@@ -11,6 +11,7 @@ We support the following records:
 - AAAA
 - CNAME
 - MX
+- NS
 - TXT
 
 ## Why does my domain still redirect to the is-a-dev website?
@@ -20,7 +21,7 @@ This usually occurs due to the cache of your browser becoming invalid and [clear
 You cannot request a subdomain nor submit changes containing a CNAME with any other records (TXT, A, MX, etc...)
 
 ## How long will it take for my PR to get merged?
-When we get into it. We always want you to wait for as short as possible. But maintainers cannot always be online. We have school and work, this is just a side project. Just be patient and we'll get to it as soon as possible! For a chance for a quicker review, send your PR in [⁠pull-requests](https://discord.com/channels/830872854677422150/1130858271620726784).
+When we get into it. We always want you to wait for as short as possible. But maintainers cannot always be online. We have school and work, this is just a side project. Just be patient and we'll get to it as soon as possible! For a chance for a quicker review, send your PR in [⁠pull-requests](https://discord.com/channels/1290121158749982761/1294377159426576455).
 
 ## Which services do you support?
 We support all services. For example: GitHub Pages and Cloudflare Pages.
@@ -40,14 +41,11 @@ You need to go to your GitHub Pages settings on your website repository (likely 
 ## Can I be a maintainer/join the team?
 No, we handpick every member of our team. You can increase your chances of being chosen by helping out people in our help forums.
 
-## I have accidentally leaked sensitive information in my PR, how can I get my PR deleted?
-If your PR **has not been merged**, you can email [security@m.is-a.dev](mailto:security@m.is-a.dev) or DM [williamharrison on Discord](https://discord.com/users/853158265466257448) however, if it has been merged already, then there is nothing we can do about it unfortunately.
-
 ## My DNS records are not updating even after 48 hours, what should I do?
 Please open a help thread via any of our help channels and we will look into it.
 
 ## Can I use my domain for a minecraft server?
-Sure, but it needs to be a nested subdomain (mc.example.is-a.dev). You would normally use a A record for this.
+Sure, but it needs to be a nested subdomain (mc.example.is-a.dev).
 
 ## How can I make changes to my is-a.dev subdomain?
 
