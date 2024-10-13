@@ -24,14 +24,21 @@ to set up, you will need to make a json file in the "domains" folder, you will n
         "email": "ur email adress"
     },
 
-    "record": {
-        // choose any dns record that exists and we can try to make it happen
+    "records": {
+        "A": ["1.1.1.1", "1.0.0.1"],
+        "AAAA": ["2606:4700:4700::1111", "2606:4700:4700::1001"],
+        "CNAME": "example.com",
+        "MX": ["mx1.example.com", "mx2.example.com"],
+        "TXT": ["example_verification=1234567890"],
+        "NS": ["ns1.example.com", "ns2.example.com"],
+        "SRV": [
+            { "priority": 10, "weight": 60, "port": 5060, "target": "sipserver.example.com" },
+            { "priority": 20, "weight": 10, "port": 5061, "target": "sipbackup.example.com" }
+        ]
     },
 
     "proxied": false
 }
 ```
-
-
-
-###
+> [!NOTE]
+> Only select the records you need, this is just a example on what all the records we support should be.
