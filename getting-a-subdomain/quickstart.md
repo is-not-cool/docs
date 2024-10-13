@@ -40,5 +40,6 @@ to set up, you will need to make a json file in the "domains" folder, you will n
     "proxied": false
 }
 ```
-> [!NOTE]
-> Only select the records you need, this is just a example on what all the records we support should be.
+{% hint style="warning" %}
+Only select the records you need, this is just a example on what all the records we support should be.
+{% endhint %}
