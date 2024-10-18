@@ -15,13 +15,10 @@ to set up, you will need to make a json file in the "domains" folder, you will n
 ```
 {
     "description": "insert ur description",
-
-    "domain": "is-not.cool",
-    "subdomain": "yoursubdomain",
-
     "owner": {
         "repo": "https://github.com/is-not-cool/registration",
-        "email": "ur email adress"
+        "email": "ur email adress",
+        "discord": "yourdiscordid"
     },
 
     "record": {
