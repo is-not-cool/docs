@@ -10,7 +10,7 @@ want to learn how to make your own? buy ur own domain&#x20;
 
 ### setting up
 
-to set up, you will need to make a json file in the "domains" folder, you will need to make sure it follows this format in json and goes like "yoursubdomain".is-not.cool.json
+to set up, you will need to make a json file in the "domains" folder, you will need to make sure it follows this format in json and goes like "yoursubdomain".json
 
 ```
 {
