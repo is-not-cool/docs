@@ -1,11 +1,11 @@
 # Table of contents
 
-* [👋 welcome](README.md)
+* [👋 Welcome](README.md)
 
 ## getting a subdomain
 
-* [🏃‍♂️ quickstart](getting-a-subdomain/quickstart.md)
-* [🤝 making a pull request](getting-a-subdomain/publish-your-docs.md)
+* [🏃‍♂️ Quickstart](getting-a-subdomain/quickstart.md)
+* [🤝 Making a pull request](getting-a-subdomain/publish-your-docs.md)
 
 ## Basics
 
