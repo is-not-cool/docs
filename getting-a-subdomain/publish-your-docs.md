@@ -1,5 +1,5 @@
-# 🤝 making a pull request
+# 🤝 Making a pull request.
 
-making a pull request is really simple!
+Creating your own pull request is easy!
 
-go to the "Pull Requests" tab on the repository, click "New pull request", after that click "Create pull request", after that wait for a maintainer to read the pull request.
+Go to the "Pull Requests" tab on the repository, click "New pull request", after that click "Create pull request", After that, send the pull request in the pull requests channel in the discord server, so a maintainer can read it faster.
