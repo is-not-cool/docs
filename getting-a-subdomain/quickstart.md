@@ -1,24 +1,24 @@
-# 🏃‍♂️ quickstart
+# 🏃‍♂️ Quickstart
 
-<figure><img src="../.gitbook/assets/5E11EFD0-4C27-429D-83B9-6EA75D3BD429.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/quickstart.png" alt=""><figcaption></figcaption></figure>
 
-first, fork the repository as shown in the photo above this text.
+You will need to fork the repository, as shown in the image above.
 
 {% hint style="info" %}
-want to learn how to make your own? buy ur own domain&#x20;
+This is a really easy-to-use subdomain service! &#x20;
 {% endhint %}
 
-### setting up
+### Setting up
 
-to set up, you will need to make a json file in the "domains" folder, you will need to make sure it follows this format in json and goes like "yoursubdomain".json
+You can get your subdomain from is-not.cool by using the format below, and making the file name be following the of "yoursubdomain".json.
 
 ```
 {
     "description": "insert ur description",
     "owner": {
         "repo": "https://github.com/is-not-cool/registration",
-        "email": "ur email adress",
-        "discord": "yourdiscordid"
+        "email": "Your email address (If you care about your privacy, you do not have to do this.)",
+        "discord": "Your discord ID"
     },
 
     "record": {
@@ -38,5 +38,5 @@ to set up, you will need to make a json file in the "domains" folder, you will n
 }
 ```
 {% hint style="warning" %}
-Only select the records you need, this is just a example on what all the records we support should be.
+Only select the records you need, Remove the other ones as it may cause errors in the .json file.
 {% endhint %}
