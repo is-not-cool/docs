@@ -5,7 +5,7 @@
 ## getting a subdomain
 
 * [🏃‍♂️ Quickstart](getting-a-subdomain/quickstart.md)
-* [🤝 Making a pull request](getting-a-subdomain/publish-your-docs.md)
+* [🤝 Creating a pull request](getting-a-subdomain/publish-your-docs.md)
 
 ## Basics
 
