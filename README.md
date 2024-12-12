@@ -18,8 +18,8 @@ layout:
     visible: true
 ---
 
-# 👋 welcome
+# 👋 Welcome
 
-welcome to the is-not.cool subdomain service documentation, here you learn exactly how to set up your subdomain from us
+Welcome to the is-not.cool subdomain service documentation, here you learn exactly how to set up your subdomain from us
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>getting a subdomain</td><td>how to get a subdomain from us</td><td></td><td></td><td><a href="getting-a-subdomain/quickstart.md">quickstart.md</a></td></tr><tr><td>supported hosts</td><td>website hosts that we support</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td>verification</td><td>how to get the subdomain verified under the provider</td><td></td><td></td><td><a href="getting-a-subdomain/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Getting a subdomain</td><td>How to get a subdomain from us.</td><td></td><td></td><td><a href="getting-a-subdomain/quickstart.md">quickstart.md</a></td></tr><tr><td>Supported Hosts</td><td>The hosting providers that we support.</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td>Verifying your subdomain.</td><td>How to get the subdomain verified with the provider.</td><td></td><td></td><td><a href="getting-a-subdomain/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
